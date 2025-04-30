@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'HelvetiHand';
+    src: url('fonts/HelvetiHand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HelvetiHand', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .homepage .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; 
+
+  }
+
+  .homepage .header-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: white;
+    font-size: 90px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin: 35%;
+  }
+  
+  .consequence-link {
+    text-decoration: none;
+  }
+  
+  .consequence-button {
+    background-color: black;
+    color: #333;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 3px 3px 0 #aaa;
+    font-family: 'HelvetiHand', sans-serif;
+    margin-bottom: 20px; 
+  }
+  
+  .consequence-button:hover {
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 0 #888;
+  }
+
+  .gif-background {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background-image: url(assets/stars.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'HelvetiHand';
+    src: url('fonts/HelvetiHand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HelvetiHand', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.nav-arrows {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px; 
+    box-sizing: border-box;
+    pointer-events: none;
+  }
+  
+  .arrow {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'HelveticaHand', sans-serif;
+    pointer-events: auto;
+    z-index: 10;
+  }  
+  
+  .arrow.right {
+    text-align: right;
+  }
+  
+  .arrow.left {
+    text-align: left;
+  }
+  
+  .about-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 20px 0;
+  }
+  
+  .back-button-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    text-decoration: none;
+  }
+  
+  .back-button {
+    background-color: black;
+    color: #333;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 3px 3px 0 #aaa;
+    font-family: 'HelvetiHand', sans-serif;
+  }
+  
+  .back-button:hover {
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 0 #888;
+  }
+  
+  .about-content {
+    margin: 10%;
+
+  }
