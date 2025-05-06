@@ -86,3 +86,25 @@ body {
     margin: 10%;
 
   }
+
+  .nav-arrows_2 {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px; 
+    box-sizing: border-box;
+    pointer-events: none;
+    color: white;
+}
+
+.arrow.right2 {
+  text-align: right;
+  color:white;
+}
+
+.arrow.left2 {
+  text-align: left;
+  color:white;
+}
